@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Divider } from '@mui/material';
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 const responsive = {
     desktop: {
